@@ -1,0 +1,71 @@
+body{
+  background-color: #FDF3FF;
+  font-family: Florence, cursive;
+}
+
+/*            Text "Oops"                     */
+h2{
+  margin: 20 auto;
+  text-align: center;
+  font-size: 400%;
+}
+
+
+/*                  Text 404                          */
+h1{
+  background: -webkit-linear-gradient(#B179E2, #76294A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 1500%;
+}
+
+
+/*              cochon image                               */
+#lienCochon{
+  position: absolute;
+  right: 28%;
+  top: 27%;
+}
+
+/*                    Texte retour GitHub                          */
+#return{
+  position: absolute;
+  right: 29%;
+  top: 50%;
+  font-weight: bold;
+  font-size: large;
+}
+#return a{
+    text-decoration: none;
+    color: #78318D;
+}
+
+
+/*                            Cochon pour les blagues en animation                   */
+#cochonBlagues{
+    position: absolute;
+    left: 25%;
+    top: 55%;
+}
+#blagues{
+  position: absolute;
+  left: 26%;
+  top: 75%;
+  font-weight: bold;
+  font-size: large;
+}
+
+/*              Affichage des blagues                */
+#ImageS{
+    display: none;
+    position: relative;
+    margin-top: 13%;
+    padding-left: 5%;
+}
+
+#detec:hover + #ImageS{
+    display: block;
+    z-index: -999;
+}
